@@ -1,0 +1,32 @@
+
+.magic-ball {
+    text-align: center;
+    margin: 300px;
+    position: relative;
+
+}
+
+.magic-ball-inner {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+
+    background-color: #34a4eb;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+
+}
+
+#answer {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.hidden {
+    display: none;
+}
